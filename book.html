@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+qiansr
+
+---
+
+# git 的使用
+## By qiansr
+
+
+---
+
+[slide]
+<!--{:&.zoomIn}-->
+##Git：一个先进的分布式版本控制系统。
+
+---
+
+[slide ]
+## 集中式 vs 分布式 
+
+---
+
+
+<div style="text-align:left;line-height:1.2">
+<div style="overflow:hidden">
+<h2 style="float:left">集中式版本控制系统（svn、cvs）</h2>
+</div>
+<br>
+<div>
+<img src="./images/0.jpg" style="float:left;margin-right:20px;"/>
+版本库是集中存放在中央服务器的，而干活的时候，先从中央服务器取得最新的版本，然后开始干活，干完活了，再把自己的活推送给中央服务器。其最大的毛病就是必须联网才能工作，如果在局域网内还好，带宽够大，速度够快，可如果在互联网上，遇到网速慢的话，可能提交一个10M的文件就需要5分钟，这还不得把人给憋死啊。而且如果集中式版本控制系统的中央服务器要是出了问题，所有人都没法干活了。
+</div>
+</div>
+
+---
+
+[slide]
+<div style="text-align:left;line-height:1.2">
+<div style="overflow:hidden">
+<h2 style="float:left">分布式版本控制系统（git）</h2>
+</div>
+<br>
+<div>
+<img src="/images/1.jpg" style="float:left;margin-right:20px;width:400px"/>
+每个人的电脑上都是一个完整的版本库，工作时无需联网。多人协作，只需把各自的修改推送给对方。和集中式版本控制系统相比，分布式版本控制系统的安全性要高很多，某一个人的电脑坏掉了不要紧，随便从其他人那里复制一个就可以了。在实际使用分布式版本控制系统的时候，通常也有一台充当“中央服务器”的电脑，但这个服务器的作用仅仅是用来方便“交换”大家的修改，没有它大家也一样干活。Git的优势不单是不必联网这么简单，Git极其强大的分支管理，把SVN等远远抛在了后面
+</div>
+</div>
+
+---
+
+[slide]
+
+![Alt text](/images/download2.png)
+
+[下载链接http://msysgit.github.io](http://code.google.com/p/msysgit/downloads/list)
+<br>
+<br>
+
+```
+git --version //确认安装是否成功
+
+```
+<br>
+<div style="color:red">注：安装完成后把git安装bin目录加入PATH环境变量
+
+---
+
+[slide]
+```
+mkdir demo
+cd demo
+git init  // 初始化一个Git版本库
+```
+<p style="text-align:left">执行完git init命令后，可以发现当前目录下多了一个.git的目录
+<br>
+<br>
+![Alt text](/images/04.png)
+</p>
+
+---
+
+[slide]
+
+##Git的工作区和暂存区  
+{:&.flexbox:vleft}
+###工作区（Working Directory）
+就是你在电脑里能看到的目录，比如我的learngit文件夹就是一个工作区
+
+###版本库（Repository）
+工作区有一个隐藏目录.git，这个就是Git的版本库。
+
+###暂存区（stag）
+Git的版本库里存了很多东西，其中最重要的就是称为stage暂存区，还有Git为我们自动创建的第一个分支master。
+
+---
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
