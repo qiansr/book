@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose readDependencies loading dependencies from C:\Users\qianyisr\Desktop\gitbook\package.json
+5 warn package.json gitbook@1.0.0 No repository field.
+6 verbose install where, deps [ 'C:\\Users\\qianyisr\\Desktop\\gitbook',
+6 verbose install   [ 'gitbook-plugin-ad',
+6 verbose install     'gitbook-plugin-anchor-navigation',
+6 verbose install     'gitbook-plugin-anchors',
+6 verbose install     'gitbook-plugin-atoc',
+6 verbose install     'gitbook-plugin-baidu',
+6 verbose install     'gitbook-plugin-book-summary-scroll-position-saver',
+6 verbose install     'gitbook-plugin-disqus',
+6 verbose install     'gitbook-plugin-edit-link',
+6 verbose install     'gitbook-plugin-expandable-chapters',
+6 verbose install     'gitbook-plugin-github',
+6 verbose install     'gitbook-plugin-github-buttons',
+6 verbose install     'gitbook-plugin-include-codeblock',
+6 verbose install     'gitbook-plugin-jsfiddle',
+6 verbose install     'gitbook-plugin-mermaid',
+6 verbose install     'gitbook-plugin-prism',
+6 verbose install     'gitbook-plugin-sample',
+6 verbose install     'gitbook-plugin-sectionx',
+6 verbose install     'gitbook-plugin-sitemap',
+6 verbose install     'gitbook-plugin-splitter',
+6 verbose install     'gitbook-plugin-tbfed-pagefooter' ] ]
+7 verbose install where, peers [ 'C:\\Users\\qianyisr\\Desktop\\gitbook', [] ]
+8 verbose installManyTop reading for lifecycle C:\Users\qianyisr\Desktop\gitbook\package.json
+9 info preinstall gitbook@1.0.0
+10 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-ad\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-anchor-navigation\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-anchors\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-atoc\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-baidu\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-book-summary-scroll-position-saver\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-disqus\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-edit-link\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-expandable-chapters\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-github\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-github-buttons\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-include-codeblock\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-jsfiddle\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-mermaid\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-prism\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sample\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sectionx\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sitemap\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-splitter\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-tbfed-pagefooter\package.json
+30 info package.json gitbook-plugin-mermaid@0.0.7 license should be a valid SPDX license expression
+31 info package.json gitbook-plugin-anchor-navigation@0.0.1 license should be a valid SPDX license expression
+32 info package.json gitbook-plugin-expandable-chapters@0.1.6 license should be a valid SPDX license expression
+33 info package.json gitbook-plugin-sectionx@1.0.4 license should be a valid SPDX license expression
+34 info package.json gitbook-plugin-tbfed-pagefooter@0.0.1 license should be a valid SPDX license expression
+35 info package.json gitbook-plugin@0.0.2 license should be a valid SPDX license expression
+36 verbose readDependencies loading dependencies from C:\Users\qianyisr\Desktop\gitbook\package.json
+37 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-ad\package.json
+38 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-anchor-navigation\package.json
+39 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-anchors\package.json
+40 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-atoc\package.json
+41 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-baidu\package.json
+42 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-book-summary-scroll-position-saver\package.json
+43 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-disqus\package.json
+44 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-edit-link\package.json
+45 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-expandable-chapters\package.json
+46 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-github\package.json
+47 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-github-buttons\package.json
+48 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-include-codeblock\package.json
+49 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-jsfiddle\package.json
+50 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-mermaid\package.json
+51 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-prism\package.json
+52 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sample\package.json
+53 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sectionx\package.json
+54 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-sitemap\package.json
+55 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-splitter\package.json
+56 verbose targetResolver reading package data from C:\Users\qianyisr\Desktop\gitbook\node_modules\gitbook-plugin-tbfed-pagefooter\package.json
+57 verbose already installed skipping gitbook-plugin-disqus@^0.1.0 C:\Users\qianyisr\Desktop\gitbook
+58 verbose already installed skipping gitbook-plugin-edit-link@^2.0.0 C:\Users\qianyisr\Desktop\gitbook
+59 verbose already installed skipping gitbook-plugin-expandable-chapters@^0.1.6 C:\Users\qianyisr\Desktop\gitbook
+60 verbose already installed skipping gitbook-plugin-github@^2.0.0 C:\Users\qianyisr\Desktop\gitbook
+61 verbose already installed skipping gitbook-plugin-github-buttons@^1.2.2 C:\Users\qianyisr\Desktop\gitbook
+62 verbose already installed skipping gitbook-plugin-include-codeblock@^1.5.0 C:\Users\qianyisr\Desktop\gitbook
+63 verbose already installed skipping gitbook-plugin-jsfiddle@^0.0.2 C:\Users\qianyisr\Desktop\gitbook
+64 verbose already installed skipping gitbook-plugin-mermaid@^0.0.7 C:\Users\qianyisr\Desktop\gitbook
+65 verbose already installed skipping gitbook-plugin-prism@^1.0.0 C:\Users\qianyisr\Desktop\gitbook
+66 silly cache add args [ 'gitbook-plugin-sample@^0.0.2', null ]
+67 verbose cache add spec gitbook-plugin-sample@^0.0.2
+68 silly cache add parsed spec { raw: 'gitbook-plugin-sample@^0.0.2',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'gitbook-plugin-sample',
+68 silly cache add   rawSpec: '^0.0.2',
+68 silly cache add   spec: '>=0.0.2 <0.0.3',
+68 silly cache add   type: 'range' }
+69 silly addNamed gitbook-plugin-sample@>=0.0.2 <0.0.3
+70 verbose addNamed ">=0.0.2 <0.0.3" is a valid semver range for gitbook-plugin-sample
+71 silly addNameRange { name: 'gitbook-plugin-sample',
+71 silly addNameRange   range: '>=0.0.2 <0.0.3',
+71 silly addNameRange   hasData: false }
+72 silly mapToRegistry name gitbook-plugin-sample
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry http://registry.npm.taobao.org/
+75 silly mapToRegistry uri http://registry.npm.taobao.org/gitbook-plugin-sample
+76 verbose addNameRange registry:http://registry.npm.taobao.org/gitbook-plugin-sample not in flight; fetching
+77 verbose already installed skipping gitbook-plugin-sectionx@^1.0.4 C:\Users\qianyisr\Desktop\gitbook
+78 verbose already installed skipping gitbook-plugin-sitemap@^1.0.2 C:\Users\qianyisr\Desktop\gitbook
+79 verbose already installed skipping gitbook-plugin-splitter@^0.0.6 C:\Users\qianyisr\Desktop\gitbook
+80 verbose request uri http://registry.npm.taobao.org/gitbook-plugin-sample
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 16:29:47
+83 verbose request id 05e921a3234d163a
+84 http request GET http://registry.npm.taobao.org/gitbook-plugin-sample
+85 verbose already installed skipping gitbook-plugin-tbfed-pagefooter@^0.0.1 C:\Users\qianyisr\Desktop\gitbook
+86 verbose already installed skipping gitbook-plugin-ad@^0.0.4 C:\Users\qianyisr\Desktop\gitbook
+87 verbose already installed skipping gitbook-plugin-anchor-navigation@^0.0.1 C:\Users\qianyisr\Desktop\gitbook
+88 verbose already installed skipping gitbook-plugin-anchors@^0.5.0 C:\Users\qianyisr\Desktop\gitbook
+89 verbose already installed skipping gitbook-plugin-atoc@^0.0.4 C:\Users\qianyisr\Desktop\gitbook
+90 verbose already installed skipping gitbook-plugin-baidu@^0.0.2 C:\Users\qianyisr\Desktop\gitbook
+91 verbose already installed skipping gitbook-plugin-book-summary-scroll-position-saver@^0.0.7 C:\Users\qianyisr\Desktop\gitbook
+92 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+93 info attempt registry request try #2 at 16:30:18
+94 http request GET http://registry.npm.taobao.org/gitbook-plugin-sample
+95 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+96 info attempt registry request try #3 at 16:31:39
+97 http request GET http://registry.npm.taobao.org/gitbook-plugin-sample
+98 verbose stack Error: connect ETIMEDOUT
+98 verbose stack     at exports._errnoException (util.js:746:11)
+98 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+99 verbose cwd C:\Users\qianyisr\Desktop\gitbook
+100 error Windows_NT 6.3.9600
+101 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+102 error node v0.12.6
+103 error npm  v2.11.2
+104 error code ETIMEDOUT
+105 error errno ETIMEDOUT
+106 error syscall connect
+107 error network connect ETIMEDOUT
+107 error network This is most likely not a problem with npm itself
+107 error network and is related to network connectivity.
+107 error network In most cases you are behind a proxy or have bad network settings.
+107 error network
+107 error network If you are behind a proxy, please make sure that the
+107 error network 'proxy' config is set properly.  See: 'npm help config'
+108 verbose exit [ 1, true ]

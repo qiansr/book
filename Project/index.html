@@ -25,6 +25,10 @@
         
     
         
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.css">
+        
+    
+        
         <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
         
     
@@ -71,12 +75,12 @@
     <link rel="prev" href="../introduct/README1.html" />
     
 
-        
+        <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.min.js"></script><link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.forest.css"></link>
     </head>
     <body>
         
         
-    <div class="book" data-level="2" data-chapter-title="项目结构规范" data-filepath="Project/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 14:32:59 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="2" data-chapter-title="项目结构规范" data-filepath="Project/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 17:14:04 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -555,13 +559,11 @@
 <ul>
 <li>&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF1A; <code>.xxx</code> UTF-8<em>(&#x65E0;BOM)</em> &#x7F16;&#x7801;</li>
 <li>&#x56FE;&#x7247;&#x6587;&#x4EF6;&#xFF1A; <code>.png</code> <em>(PNG-24)</em> <code>.jpg</code> <em>(&#x538B;&#x7F29;&#x7387;8-12)</em></li>
-<li>&#x52A8;&#x6001;&#x56FE;&#x7247;&#xFF1A; <code>.gif</code></li>
-<li>&#x538B;&#x7F29;&#x6587;&#x4EF6;&#xFF1A; <code>.tar.gz</code> <code>.zip</code></li>
 </ul>
 <script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; QIANSR all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2015-11-25 19:09:55
+2015-11-30 17:12:05
 </span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#项目结构规范'>项目结构规范</a></li><ul><li><a href='#①-项目结构'>① 项目结构</a></li><li><a href='#②-css-文件结构'>② CSS 文件结构</a></li><li><a href='#③-js-文件结构'>③ JS 文件结构</a></li><li><a href='#④-命名规范'>④ 命名规范</a></li><li><a href='#⑤-格式编码'>⑤ 格式&编码</a></li></ul></ul></div><a href='#项目结构规范' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
@@ -593,6 +595,10 @@
 
     
     <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/plugin.js"></script>
     
 
     
@@ -639,13 +645,9 @@
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
-    
-    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
-    
-
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"mermaid-2":{"theme":"forest"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>

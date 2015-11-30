@@ -25,6 +25,10 @@
         
     
         
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.css">
+        
+    
+        
         <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
         
     
@@ -71,12 +75,12 @@
     <link rel="prev" href="../Other/index.html" />
     
 
-        
+        <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.min.js"></script><link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.forest.css"></link>
     </head>
     <body>
         
         
-    <div class="book" data-level="7.1" data-chapter-title="Chrome" data-filepath="Other/1.md" data-basepath=".." data-revision="Mon Nov 30 2015 14:32:59 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="7.1" data-chapter-title="Chrome" data-filepath="Other/1.md" data-basepath=".." data-revision="Mon Nov 30 2015 17:14:04 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -531,6 +535,7 @@
   <span class="token string">&quot;plugins&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
     <span class="token string">&quot;disqus&quot;</span><span class="token punctuation">,</span>
     <span class="token string">&quot;github&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;mermaid-2&quot;</span><span class="token punctuation">,</span>
     <span class="token string">&quot;atoc&quot;</span><span class="token punctuation">,</span>
     <span class="token string">&quot;edit-link&quot;</span><span class="token punctuation">,</span>
     <span class="token string">&quot;prism&quot;</span><span class="token punctuation">,</span>
@@ -556,6 +561,10 @@
     <span class="token string">&quot;github&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
       <span class="token string">&quot;url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;https://github.com/zhaoda/webpack-handbook&quot;</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;mermaid-2&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+         <span class="token string">&quot;theme&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;forest&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
     <span class="token string">&quot;atoc&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
         <span class="token string">&quot;addClass&quot;</span><span class="token punctuation">:</span> <span class="token keyword">true</span><span class="token punctuation">,</span>
         <span class="token string">&quot;className&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;atoc&quot;</span>
@@ -1143,6 +1152,10 @@ isAtribute&#x5C5E;&#x6027;&#xFF1A; &#x662F;&#x5426;&#x901A;&#x8FC7; html &#x5C5E
     
 
     
+    <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/plugin.js"></script>
+    
+
+    
     <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
     
 
@@ -1186,13 +1199,9 @@ isAtribute&#x5C5E;&#x6027;&#xFF1A; &#x662F;&#x5426;&#x901A;&#x8FC7; html &#x5C5E
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
-    
-    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
-    
-
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"mermaid-2":{"theme":"forest"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>

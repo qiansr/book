@@ -25,6 +25,10 @@
         
     
         
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.css">
+        
+    
+        
         <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
         
     
@@ -71,12 +75,12 @@
     <link rel="prev" href="../Other/13.html" />
     
 
-        
+        <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.min.js"></script><link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.forest.css"></link>
     </head>
     <body>
         
         
-    <div class="book" data-level="8" data-chapter-title="Git教程" data-filepath="Git/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 14:32:59 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="8" data-chapter-title="Git教程" data-filepath="Git/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 17:14:04 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -521,8 +525,16 @@
                         <h1 id="git&#x6559;&#x7A0B;"><a name="git&#x6559;&#x7A0B;" class="plugin-anchor" href="#git&#x6559;&#x7A0B;"><span class="fa fa-link"></span></a>Git&#x6559;&#x7A0B;</h1>
 <h2 id="git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;"><a name="git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;" class="plugin-anchor" href="#git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;"><span class="fa fa-link"></span></a>Git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;</h2>
 <p>Git&#xFF1A;&#x6700;&#x5148;&#x8FDB;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF0C;&#x7531;&#x521B;&#x5EFA;&#x4E86;&#x5F00;&#x6E90;Linux&#x7684;&#x5927;&#x725B;Linus&#x521B;&#x5EFA;&#x3002;</p>
-<p><strong>1. &#x96C6;&#x4E2D;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF08;svn&#x3001;cvs&#xFF09;&#xFF1A;</strong>
-<img src="../images/0.jpg" alt="Alt text"></p>
+<div class="mermaid">
+graph TD;
+ A--&gt;B;
+ A--&gt;C;
+ B--&gt;D;
+ C--&gt;D;
+</div>
+
+<p><strong>1. &#x96C6;&#x4E2D;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF08;svn&#x3001;cvs&#xFF09;</strong></p>
+<p><img src="../images/0.jpg" alt="Alt text"></p>
 <p>&#x7248;&#x672C;&#x5E93;&#x96C6;&#x4E2D;&#x5B58;&#x653E;&#x5728;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x3002;&#x5E72;&#x6D3B;&#x65F6;&#xFF0C;&#x5148;&#x4ECE;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x53D6;&#x5F97;&#x6700;&#x65B0;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x5E72;&#x5B8C;&#x6D3B;&#x4E86;&#xFF0C;&#x518D;&#x628A;&#x81EA;&#x5DF1;&#x7684;&#x6D3B;&#x63A8;&#x9001;&#x7ED9;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x3002;</p>
 <p><strong>2. &#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF08;Git&#x3001;Mercurial&#xFF09;</strong>
 <img src="../images/1.jpg" alt="Alt text"></p>
@@ -636,11 +648,15 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 </tbody>
 </table>
 <h2 id="git&#x5DE5;&#x4F5C;&#x533A;&#x548C;&#x6682;&#x5B58;&#x533A;&#x6982;&#x5FF5;"><a name="git&#x5DE5;&#x4F5C;&#x533A;&#x548C;&#x6682;&#x5B58;&#x533A;&#x6982;&#x5FF5;" class="plugin-anchor" href="#git&#x5DE5;&#x4F5C;&#x533A;&#x548C;&#x6682;&#x5B58;&#x533A;&#x6982;&#x5FF5;"><span class="fa fa-link"></span></a>Git&#x5DE5;&#x4F5C;&#x533A;&#x548C;&#x6682;&#x5B58;&#x533A;&#x6982;&#x5FF5;</h2>
-<p>&#x5DE5;&#x4F5C;&#x533A;&#xFF08;Working Directory&#xFF09;
-&#x5C31;&#x662F;&#x4F60;&#x5728;&#x7535;&#x8111;&#x91CC;&#x80FD;&#x770B;&#x5230;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x7684;learngit&#x6587;&#x4EF6;&#x5939;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5DE5;&#x4F5C;&#x533A;</p>
-<p>&#x7248;&#x672C;&#x5E93;&#xFF08;Repository&#xFF09;
-&#x5DE5;&#x4F5C;&#x533A;&#x6709;&#x4E00;&#x4E2A;&#x9690;&#x85CF;&#x76EE;&#x5F55;.git&#xFF0C;&#x8FD9;&#x4E2A;&#x5C31;&#x662F;Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x3002;</p>
-<p>Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x79F0;&#x4E3A;stage&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x8FD8;&#x6709;Git&#x4E3A;&#x6211;&#x4EEC;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x652F;master&#x3002;</p>
+<p><strong>&#x5DE5;&#x4F5C;&#x533A;&#xFF08;Working Directory&#xFF09;</strong></p>
+<blockquote>
+<p>&#x5C31;&#x662F;&#x4F60;&#x5728;&#x7535;&#x8111;&#x91CC;&#x80FD;&#x770B;&#x5230;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x7684;learngit&#x6587;&#x4EF6;&#x5939;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5DE5;&#x4F5C;&#x533A;</p>
+</blockquote>
+<p><strong>&#x7248;&#x672C;&#x5E93;&#xFF08;Repository&#xFF09;</strong></p>
+<blockquote>
+<p>&#x5DE5;&#x4F5C;&#x533A;&#x6709;&#x4E00;&#x4E2A;&#x9690;&#x85CF;&#x76EE;&#x5F55;.git&#xFF0C;&#x8FD9;&#x4E2A;&#x5C31;&#x662F;Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x3002;
+Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x79F0;&#x4E3A;stage&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x8FD8;&#x6709;Git&#x4E3A;&#x6211;&#x4EEC;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x652F;master&#x3002;</p>
+</blockquote>
 <p><strong>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;git add&#x628A;&#x63D0;&#x4EA4;&#x7684;&#x4FEE;&#x6539;&#x653E;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF08;Stage&#xFF09;&#x3002;</strong></p>
 <p><img src="../images/4.jpg" alt="Alt text"></p>
 <p><strong>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;git commit&#x628A;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539;&#x63D0;&#x4EA4;&#x5230;&#x5206;&#x652F;&#x3002;</strong></p>
@@ -709,11 +725,6 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td style="text-align:right">&#x4ECE;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x514B;&#x9686;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x5E93;</td>
 </tr>
 <tr>
-<td style="text-align:left">------</td>
-<td>------</td>
-<td style="text-align:right">------</td>
-</tr>
-<tr>
 <td style="text-align:left">&#x2461;</td>
 <td><strong><span style="padding:3px 10px;display:inline-block;background:#eee">git remote</span></strong></td>
 <td style="text-align:right"></td>
@@ -739,11 +750,6 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td style="text-align:right">&#x53C2;&#x6570;rename&#xFF0C;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x6539;&#x540D;</td>
 </tr>
 <tr>
-<td style="text-align:left">------</td>
-<td>------</td>
-<td style="text-align:right">------</td>
-</tr>
-<tr>
 <td style="text-align:left">&#x2462;</td>
 <td><strong><span style="padding:3px 10px;display:inline-block;background:#eee">git fetch</span></strong></td>
 <td style="text-align:right"></td>
@@ -764,11 +770,6 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td style="text-align:right">&#x67E5;&#x770B;&#x6240;&#x6709;&#x5206;&#x652F;&#xFF08;&#x5305;&#x62EC;&#x8FDC;&#x7A0B;&#x5206;&#x652F;)</td>
 </tr>
 <tr>
-<td style="text-align:left">------</td>
-<td>------</td>
-<td style="text-align:right">------</td>
-</tr>
-<tr>
 <td style="text-align:left">&#x2463;</td>
 <td><strong><span style="padding:3px 10px;display:inline-block;background:#eee">git pull</span></strong></td>
 </tr>
@@ -778,11 +779,6 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td style="text-align:right">&#x53D6;&#x56DE;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x67D0;&#x4E2A;&#x5206;&#x652F;&#x7684;&#x66F4;&#x65B0;&#xFF0C;&#x518D;&#x4E0E;&#x672C;&#x5730;&#x7684;&#x6307;&#x5B9A;&#x5206;&#x652F;&#x5408;&#x5E76;</td>
 </tr>
 <tr>
-<td style="text-align:left">------</td>
-<td>------</td>
-<td style="text-align:right">------</td>
-</tr>
-<tr>
 <td style="text-align:left">&#x2464;</td>
 <td><strong><span style="padding:3px 10px;display:inline-block;background:#eee">git push</span></strong></td>
 <td style="text-align:right"></td>
@@ -790,6 +786,7 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <tr>
 <td style="text-align:left"></td>
 <td>git push &lt;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x540D;&gt; &lt;&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&gt;:&lt;&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x540D;&gt;</td>
+<td style="text-align:right">*</td>
 </tr>
 </tbody>
 </table>
@@ -946,7 +943,7 @@ git push mybook -u ph-pages //&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#
 <script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; QIANSR all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2015-11-30 14:33:06
+2015-11-30 17:06:17
 </span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#git教程'>Git教程</a></li><ul><li><a href='#git简介和安装'>Git简介和安装</a></li><li><a href='#git基础操作命令'>Git基础操作命令</a></li><li><a href='#git工作区和暂存区概念'>Git工作区和暂存区概念</a></li><li><a href='#git的常见操作'>Git的常见操作</a></li><ul><li><a href='#1-修改文件'>1. 修改文件</a></li><li><a href='#2-删除文件'>2. 删除文件</a></li><li><a href='#3-其他操作'>3. 其他操作</a></li></ul><li><a href='#git远程操作详解'>Git远程操作详解</a></li><ul><li><a href='#创建ssh验证'>创建SSH验证</a></li><li><a href='#关联远程库'>关联远程库</a></li><li><a href='#ssh警告'>SSH警告</a></li></ul><li><a href='#杀手锏—分支管理'>杀手锏—分支管理</a></li><ul><li><a href='#分支管理常用命令'>分支管理常用命令</a></li></ul><li><a href='#分支策略'>分支策略</a></li><ul><li><a href='#bug分支'>Bug分支</a></li><li><a href='#多人协作的工作模式：'>多人协作的工作模式：</a></li></ul><li><a href='#标签管理'>标签管理</a></li><li><a href='#配置git'>配置git</a></li><ul><li><a href='#忽略特定文件'>忽略特定文件</a></li><li><a href='#配置命令'>配置命令</a></li></ul><li><a href='#git服务器搭建'>Git服务器搭建</a></li><li><a href='#工作区回退'>工作区回退</a></li><li><a href='#github-创建项目主页page'>github 创建项目主页page</a></li></ul></ul></div><a href='#git教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
@@ -978,6 +975,10 @@ git push mybook -u ph-pages //&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#
 
     
     <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/plugin.js"></script>
     
 
     
@@ -1024,13 +1025,9 @@ git push mybook -u ph-pages //&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
-    
-    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
-    
-
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    var config = {"disqus":{"shortName":"webpack-handbook","useIdentifier":false},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"mermaid-2":{"theme":"forest"},"atoc":{"addClass":true,"className":"atoc"},"expandable-chapters":{},"ad":{"contentTop":"","contentBottom":""},"jsfiddle":{"tabs":["result","js","css","html"],"height":500,"widht":500},"edit-link":{"base":"https://github.com/qiansr/book","label":"编辑本页"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sitemap":{"hostname":"http://qiansr.github.io/book/sitemap.html"},"tbfed-pagefooter":{"copyright":"&copy QIANSR","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"splitter":{},"anchors":{},"anchor-navigation":{},"include-codeblock":{},"book-summary-scroll-position-saver":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>
