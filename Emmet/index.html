@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>三种方式实现动态元素水平居中 | web前端指南</title>
+        <title>Emmet教程 | web前端指南</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.5.2">
@@ -69,10 +69,8 @@
         
     
     
-    <link rel="next" href="../Other/8.html" />
     
-    
-    <link rel="prev" href="../Other/6.html" />
+    <link rel="prev" href="../ppt/index.html" />
     
 
         <script src="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.min.js"></script><link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.forest.css"></link>
@@ -80,7 +78,7 @@
     <body>
         
         
-    <div class="book" data-level="7.7" data-chapter-title="三种方式实现动态元素水平居中" data-filepath="Other/7.md" data-basepath=".." data-revision="Mon Nov 30 2015 19:28:01 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="13" data-chapter-title="Emmet教程" data-filepath="Emmet/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 19:28:01 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -304,7 +302,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="7.7" data-path="Other/7.html">
+        <li class="chapter " data-level="7.7" data-path="Other/7.html">
             
                 
                     <a href="../Other/7.html">
@@ -489,7 +487,7 @@
             
         </li>
     
-        <li class="chapter " data-level="13" data-path="Emmet/index.html">
+        <li class="chapter active" data-level="13" data-path="Emmet/index.html">
             
                 
                     <a href="../Emmet/index.html">
@@ -537,12 +535,70 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x5143;&#x7D20;&#x6C34;&#x5E73;&#x5C45;&#x4E2D;"><a name="&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x5143;&#x7D20;&#x6C34;&#x5E73;&#x5C45;&#x4E2D;" class="plugin-anchor" href="#&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x5143;&#x7D20;&#x6C34;&#x5E73;&#x5C45;&#x4E2D;"><span class="fa fa-link"></span></a>&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x5143;&#x7D20;&#x6C34;&#x5E73;&#x5C45;&#x4E2D;</h1>
-<script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
+                        <h1 id="emmet&#x6559;&#x7A0B;"><a name="emmet&#x6559;&#x7A0B;" class="plugin-anchor" href="#emmet&#x6559;&#x7A0B;"><span class="fa fa-link"></span></a>Emmet&#x6559;&#x7A0B;</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5FEB;&#x6377;&#x952E;</th>
+<th>&#x529F;&#x80FD;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ctrl + shift + ;</td>
+<td>&#x5220;&#x9664;&#x9009;&#x5B9A;&#x7684;&#x5143;&#x7D20;&#x6807;&#x7B7E;&#x5BF9;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x8F93;&#x5165;&#x201C;html:5&#x201D; + tab</td>
+<td>&#x751F;&#x6210;html5&#x6587;&#x6863;</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+.</td>
+<td>&#x6574;&#x5757;&#x533A;&#x57DF;&#x8DF3;&#x8F6C;</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+u</td>
+<td>&#x81EA;&#x52A8;&#x83B7;&#x53D6;&#x66F4;&#x65B0;&#x56FE;&#x7247;&#x5927;&#x5C0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+&#x201D;</td>
+<td>&#x8F6C;&#x6362;&#x5916;&#x8054;&#x56FE;&#x7247;&#x4E3A;data:url base64&#x7F16;&#x7801;</td>
+</tr>
+</tbody>
+</table>
+<pre><code>//html&#x8BED;&#x6CD5;&#x89C4;&#x5219;  
+   1.  E &#x4E3A; HTML&#x5143;&#x7D20;
+   2.  E#id E.class  id,class&#x7B80;&#x5199;
+   4.  E[attr=foo]   &#x7279;&#x5B9A;&#x5C5E;&#x6027;&#x3002;
+   5.  E{foo}        &#x5305;&#x542B;&#x7684;&#x5185;&#x5BB9;&#x3002;
+   6.  E&gt;N   N&#x662F;E&#x7684;&#x5B50;&#x5143;&#x7D20;&#x3002;
+   7.  E+N   N&#x662F;E&#x7684;&#x540C;&#x8F88;&#x3002;
+   8.  E^N   N&#x662F;E&#x7684;&#x7236;&#x8F88;&#x3002;
+   9.  $*N  &#x8FDE;&#x5199;&#x4E0E;&#x81EA;&#x52A8;&#x7F16;&#x53F7; &#x4F8B;&#xFF1A;#item$*3
+   10. $@-  $&#x540E;&#x9762;&#x52A0;@- , &#x5B9E;&#x73B0;&#x5012;&#x5E8F;&#x6392;&#x5E8F;  &#x4F8B;&#xFF1A;E$@-  
+
+   //css&#x8BED;&#x6CD5;&#x89C4;&#x5219;
+  &#x2018;+&#x2019;      &#x8FDE;&#x63A5;&#x4E24;&#x6761;&#x8BED;&#x53E5;  &#x4F8B;&#xFF1A;w100+h20+m10-20
+   w80 h20 &#x9AD8;&#x5BBD;&#xFF0C;&#x4E0D;&#x5E26;&#x5355;&#x4F4D;&#x9ED8;&#x8BA4;&#x4E3A;px&#xFF0C;&#x5E26;p&#x8868;&#x793A;%
+   m10-20  &#x8868;&#x793A; margin: 10px 20px
+
+   c#3     &#x8868;&#x793A;&#x989C;&#x8272; color: #333
+   bd5#0s  &#x8868;&#x793A; border: 5px #000 solid
+   !       &#x8868;&#x793A; !important
+
+   &#x80CC;&#x666F;&#x6E10;&#x53D8; lg(left, #fff 50%, #000)
+   @f      @font-face{}&#x7ED3;&#x6784;&#x7B80;&#x5199;
+   @f+     &#x52A0;&#x5F3A;@font-face{}&#x7ED3;&#x6784;&#x7B80;&#x5199;
+   -CSS3&#x5C5E;&#x6027; &#x524D;&#x9762;&#x52A0;-&#xFF0C;&#x8868;&#x793A;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x6E38;&#x89C8;&#x5668;&#x524D;&#x7F00;
+
+    //&#x5176;&#x5B83;&#x9AD8;&#x7EA7;&#x7528;&#x6CD5;
+    lorem   &#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E00;&#x6BB5;&#x968F;&#x673A;&#x6587;&#x672C;
+    lorem10 &#x6570;&#x5B57;10&#x8868;&#x793A;&#x751F;&#x6210;&#x6587;&#x672C;&#x5355;&#x8BCD;&#x6570;
+</code></pre><script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; QIANSR all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2015-11-25 19:09:55
-</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#三种方式实现动态元素水平居中'>三种方式实现动态元素水平居中</a></li></ul></div><a href='#三种方式实现动态元素水平居中' id='goTop'><i class='fa fa-arrow-up'></i></a>
+2015-11-30 18:06:27
+</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#emmet教程'>Emmet教程</a></li></ul></div><a href='#emmet教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
                 
@@ -552,10 +608,8 @@
         </div>
 
         
-        <a href="../Other/6.html" class="navigation navigation-prev " aria-label="Previous page: 替代jQuery"><i class="fa fa-angle-left"></i></a>
+        <a href="../ppt/index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 幻灯制作工具"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../Other/8.html" class="navigation navigation-next " aria-label="Next page: BEM的定义"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

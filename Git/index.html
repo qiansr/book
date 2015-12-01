@@ -80,7 +80,7 @@
     <body>
         
         
-    <div class="book" data-level="8" data-chapter-title="Git教程" data-filepath="Git/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 17:17:56 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="8" data-chapter-title="Git教程" data-filepath="Git/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 19:28:01 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -489,6 +489,21 @@
             
         </li>
     
+        <li class="chapter " data-level="13" data-path="Emmet/index.html">
+            
+                
+                    <a href="../Emmet/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Emmet教程
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -524,7 +539,7 @@
                     
                         <h1 id="git&#x6559;&#x7A0B;"><a name="git&#x6559;&#x7A0B;" class="plugin-anchor" href="#git&#x6559;&#x7A0B;"><span class="fa fa-link"></span></a>Git&#x6559;&#x7A0B;</h1>
 <h2 id="git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;"><a name="git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;" class="plugin-anchor" href="#git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;"><span class="fa fa-link"></span></a>Git&#x7B80;&#x4ECB;&#x548C;&#x5B89;&#x88C5;</h2>
-<p>Git&#xFF1A;&#x6700;&#x5148;&#x8FDB;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF0C;&#x7531;&#x521B;&#x5EFA;&#x4E86;&#x5F00;&#x6E90;Linux&#x7684;&#x5927;&#x725B;Linus&#x521B;&#x5EFA;&#x3002;</p>
+<p>Git&#x662F;&#x4E00;&#x4E2A;&#x5148;&#x8FDB;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF0C;&#x7531;Linux&#x7684;&#x5927;&#x725B;Linus&#x521B;&#x5EFA;&#x3002;</p>
 <p><strong>1. &#x96C6;&#x4E2D;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF08;svn&#x3001;cvs&#xFF09;</strong></p>
 <p><img src="../images/0.jpg" alt="Alt text"></p>
 <p>&#x7248;&#x672C;&#x5E93;&#x96C6;&#x4E2D;&#x5B58;&#x653E;&#x5728;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x3002;&#x5E72;&#x6D3B;&#x65F6;&#xFF0C;&#x5148;&#x4ECE;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x53D6;&#x5F97;&#x6700;&#x65B0;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x5E72;&#x5B8C;&#x6D3B;&#x4E86;&#xFF0C;&#x518D;&#x628A;&#x81EA;&#x5DF1;&#x7684;&#x6D3B;&#x63A8;&#x9001;&#x7ED9;&#x4E2D;&#x592E;&#x670D;&#x52A1;&#x5668;&#x3002;</p>
@@ -567,11 +582,11 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 </tr>
 <tr>
 <td style="text-align:left">git log</td>
-<td>&#x663E;&#x793A;&#x6240;&#x6709;commit&#x8BB0;&#x5F55;</td>
+<td>&#x67E5;&#x770B;&#x6240;&#x6709;commit&#x8BB0;&#x5F55;</td>
 </tr>
 <tr>
-<td style="text-align:left">git log --pretty=oneline</td>
-<td>&#x7B80;&#x663E;commit&#x8BB0;&#x5F55;</td>
+<td style="text-align:left">git reflog</td>
+<td>&#x67E5;&#x770B;&#x6240;&#x6709;&#x64CD;&#x4F5C;&#x8BB0;&#x5F55;</td>
 </tr>
 <tr>
 <td style="text-align:left">git reset --hard HEAD^^</td>
@@ -586,23 +601,23 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td>&#x663E;&#x793A;&#x6240;&#x6709;&#x64CD;&#x4F5C;&#x8BB0;&#x5F55;</td>
 </tr>
 <tr>
-<td style="text-align:left">git checkout -- text.txt</td>
-<td>&#x62FF;&#x6682;&#x5B58;&#x533A;&#x6216;&#x7248;&#x672C;&#x5E93;&#x66FF;&#x6362;&#x6389;&#x5DE5;&#x4F5C;&#x533A;&#x5185;&#x5BB9;</td>
+<td style="text-align:left">git checkout -- &lt;&#x6587;&#x4EF6;&#x540D;&gt;</td>
+<td>&#x53D6;&#x6D88;&#x5DE5;&#x4F5C;&#x533A;&#x5185;&#x5BB9;&#xFF0C;&#x62FF;&#x6682;&#x5B58;&#x533A;&#x6216;&#x7248;&#x672C;&#x5E93;&#x5185;&#x5BB9;&#x66FF;&#x6362;</td>
 </tr>
 <tr>
 <td style="text-align:left">git checkout xxx</td>
 <td>&#x5207;&#x6362;&#x5230;xxx&#x5206;&#x652F;</td>
 </tr>
 <tr>
-<td style="text-align:left">git diff HEAD -- file.txt</td>
+<td style="text-align:left">git diff HEAD -- &lt;&#x6587;&#x4EF6;&#x540D;&gt;</td>
 <td>&#x5BF9;&#x6BD4;&#x5DE5;&#x4F5C;&#x533A;&#x548C;&#x7248;&#x672C;&#x5E93;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684;&#x4FEE;&#x6539;</td>
 </tr>
 <tr>
-<td style="text-align:left">git remote add <name> git@github/X.git</name></td>
+<td style="text-align:left">git remote add <name> &lt;&#x5E93;&#x5730;&#x5740;&gt;</name></td>
 <td>&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;</td>
 </tr>
 <tr>
-<td style="text-align:left">git remote rm <name> git@github/X.git</name></td>
+<td style="text-align:left">git remote rm <name> &lt;&#x5E93;&#x5730;&#x5740;&gt;</name></td>
 <td>&#x53D6;&#x6D88;&#x8FDC;&#x7A0B;&#x5E93;&#x5173;&#x8054;</td>
 </tr>
 <tr>
@@ -610,12 +625,8 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <td>&#x672C;&#x5730;&#x5220;&#x9664;&#x8FDC;&#x7A0B;github&#x5206;&#x652F;&#xFF08;&#x539F;&#x7406;&#xFF1A;&#x63A8;&#x9001;&#x7A7A;&#x767D;&#x5206;&#x652F;&#x8986;&#x76D6;&#xFF09;</td>
 </tr>
 <tr>
-<td style="text-align:left">git clone git@github/X.git</td>
+<td style="text-align:left">git clone &lt;&#x5E93;&#x5730;&#x5740;&gt;</td>
 <td>&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x5E93;&#x5230;&#x672C;&#x5730;</td>
-</tr>
-<tr>
-<td style="text-align:left">git push -u <name> xxx</name></td>
-<td>&#x63A8;&#x9001;&#x672C;&#x5730;xxx&#x5206;&#x652F;&#x81F3;&#x8FDC;&#x7A0B;&#x5E93;&#x5E76;&#x5173;&#x8054;</td>
 </tr>
 <tr>
 <td style="text-align:left">git branch</td>
@@ -632,10 +643,6 @@ git init //&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;git&#x9879;&#x76EE;
 <tr>
 <td style="text-align:left">git branch -d xxx</td>
 <td>&#x5220;&#x9664;xxx&#x5206;&#x652F;</td>
-</tr>
-<tr>
-<td style="text-align:left">git log --graph --pretty=oneline</td>
-<td>&#x4EE5;&#x56FE;&#x5F62;&#x663E;&#x793A;&#xFF0C;&#x53EF;&#x770B;&#x5230;&#x5206;&#x652F;&#x7684;&#x5408;&#x5E76;&#x60C5;&#x51B5;</td>
 </tr>
 </tbody>
 </table>
@@ -654,14 +661,24 @@ Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x79F0;&#x4E
 <p><strong>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;git commit&#x628A;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539;&#x63D0;&#x4EA4;&#x5230;&#x5206;&#x652F;&#x3002;</strong></p>
 <p><img src="../images/5.jpg" alt="Alt text"></p>
 <h2 id="git&#x7684;&#x5E38;&#x89C1;&#x64CD;&#x4F5C;"><a name="git&#x7684;&#x5E38;&#x89C1;&#x64CD;&#x4F5C;" class="plugin-anchor" href="#git&#x7684;&#x5E38;&#x89C1;&#x64CD;&#x4F5C;"><span class="fa fa-link"></span></a>Git&#x7684;&#x5E38;&#x89C1;&#x64CD;&#x4F5C;</h2>
-<h3 id="1-&#x4FEE;&#x6539;&#x6587;&#x4EF6;"><a name="1-&#x4FEE;&#x6539;&#x6587;&#x4EF6;" class="plugin-anchor" href="#1-&#x4FEE;&#x6539;&#x6587;&#x4EF6;"><span class="fa fa-link"></span></a>1. &#x4FEE;&#x6539;&#x6587;&#x4EF6;</h3>
-<p><strong>&#x573A;&#x666F;1&#xFF1A;</strong>&#x5F53;&#x4F60;&#x6539;&#x4E71;&#x4E86;&#x5DE5;&#x4F5C;&#x533A;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x60F3;&#x76F4;&#x63A5;&#x4E22;&#x5F03;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x4FEE;&#x6539;&#x65F6;&#xFF0C;&#x7528;&#x547D;&#x4EE4;git checkout -- file&#x3002;</p>
-<p><strong>&#x573A;&#x666F;2&#xFF1A;</strong>&#x5F53;&#x4F60;&#x4E0D;&#x4F46;&#x6539;&#x4E71;&#x4E86;&#x5DE5;&#x4F5C;&#x533A;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x8FD8;&#x6DFB;&#x52A0;&#x5230;&#x4E86;&#x6682;&#x5B58;&#x533A;&#x65F6;&#xFF0C;&#x60F3;&#x4E22;&#x5F03;&#x4FEE;&#x6539;&#xFF0C;&#x5206;&#x4E24;&#x6B65;&#xFF0C;&#x7B2C;&#x4E00;&#x6B65;&#x7528;&#x547D;&#x4EE4;git reset HEAD file&#xFF0C;&#x5C31;&#x56DE;&#x5230;&#x4E86;&#x573A;&#x666F;1&#xFF0C;&#x7B2C;&#x4E8C;&#x6B65;&#x6309;&#x573A;&#x666F;1&#x64CD;&#x4F5C;&#x3002;</p>
-<p><strong>&#x573A;&#x666F;3&#xFF1A;</strong>&#x5DF2;&#x7ECF;&#x63D0;&#x4EA4;&#x4E86;&#x4E0D;&#x5408;&#x9002;&#x7684;&#x4FEE;&#x6539;&#x5230;&#x7248;&#x672C;&#x5E93;&#x65F6;&#xFF0C;&#x60F3;&#x8981;&#x64A4;&#x9500;&#x672C;&#x6B21;&#x63D0;&#x4EA4;&#xFF0C;&#x53C2;&#x8003;&#x7248;&#x672C;&#x56DE;&#x9000;&#x4E00;&#x8282;&#xFF0C;&#x4E0D;&#x8FC7;&#x524D;&#x63D0;&#x662F;&#x6CA1;&#x6709;&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;&#x3002;</p>
+<h3 id="1-&#x4FEE;&#x6539;&#x56DE;&#x9000;"><a name="1-&#x4FEE;&#x6539;&#x56DE;&#x9000;" class="plugin-anchor" href="#1-&#x4FEE;&#x6539;&#x56DE;&#x9000;"><span class="fa fa-link"></span></a>1. &#x4FEE;&#x6539;&#x56DE;&#x9000;</h3>
+<blockquote>
+<p>git checkout &#x2014; xxx   &#x64A4;&#x9500;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x6682;&#x5B58;&#x533A;or&#x7248;&#x672C;&#x5E93;&#x66FF;&#x6362;<br>git reset HEAD xxxx  &#x4E22;&#x5F03;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539; </p>
+</blockquote>
+<h4 id="&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;"><a name="&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;" class="plugin-anchor" href="#&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;"><span class="fa fa-link"></span></a><strong> &#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;</strong></h4>
+<pre><code>git reset HEAD xxxx //&#x4E22;&#x5F03;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539;
+git checkout &#x2014; xxx // &#x64A4;&#x9500;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x62FF;&#x7248;&#x672C;&#x5E93;&#x66FF;&#x6362;&#x5DE5;&#x4F5C;&#x533A;
+</code></pre><h4 id="&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;"><a name="&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;" class="plugin-anchor" href="#&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;"><span class="fa fa-link"></span></a><strong>&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;</strong></h4>
+<pre><code>git reset &#x2013;hard HEAD^ //&#x76F4;&#x63A5;&#x4F7F;&#x7248;&#x672C;&#x56DE;&#x9000;&#x4E0A;&#x4E00;&#x7248;&#x672C;
+</code></pre><h4 id="&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;"><a name="&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;" class="plugin-anchor" href="#&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;"><span class="fa fa-link"></span></a><strong>&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;</strong></h4>
+<pre><code>git add xxx  // &#x9519;&#x8BEF;
+git rm xxx  // &#x6B63;&#x786E;
+</code></pre><p>&#x6682;&#x5B58;&#x533A; &#x56DE;&#x9000;&#xFF1A;git reset HEAD xxxx
+&#x7248;&#x672C;&#x5E93; &#x56DE;&#x9000;&#xFF1A;git reset --hard HEAD^</p>
 <h3 id="2-&#x5220;&#x9664;&#x6587;&#x4EF6;"><a name="2-&#x5220;&#x9664;&#x6587;&#x4EF6;" class="plugin-anchor" href="#2-&#x5220;&#x9664;&#x6587;&#x4EF6;"><span class="fa fa-link"></span></a>2. &#x5220;&#x9664;&#x6587;&#x4EF6;</h3>
 <p>&#x6587;&#x4EF6;&#x7BA1;&#x7406;&#x5668;&#x4E2D;&#x5220;&#x9664; &#x6216;  rm&#x547D;&#x4EE4;&#x5220;&#x9664;
 &#x4ECE;&#x7248;&#x672C;&#x5E93;&#x5220;&#x9664;&#xFF1A;git rm&#x5220;&#x6389;&#xFF0C;&#x5E76;&#x4E14; git commit&#xFF1A;
-&#x4ECE;&#x7248;&#x672C;&#x5E93;&#x6062;&#x590D;&#xFF1A;git checkout -- file.txt</p>
+&#x4ECE;&#x7248;&#x672C;&#x5E93;&#x6062;&#x590D;&#xFF1A;git checkout -- &lt;&#x6587;&#x4EF6;&#x540D;&gt;</p>
 <h3 id="3-&#x5176;&#x4ED6;&#x64CD;&#x4F5C;"><a name="3-&#x5176;&#x4ED6;&#x64CD;&#x4F5C;" class="plugin-anchor" href="#3-&#x5176;&#x4ED6;&#x64CD;&#x4F5C;"><span class="fa fa-link"></span></a>3. &#x5176;&#x4ED6;&#x64CD;&#x4F5C;</h3>
 <table>
 <thead>
@@ -782,21 +799,12 @@ Git&#x7684;&#x7248;&#x672C;&#x5E93;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x79F0;&#x4E
 </tr>
 </tbody>
 </table>
-<h3 id="&#x521B;&#x5EFA;ssh&#x9A8C;&#x8BC1;"><a name="&#x521B;&#x5EFA;ssh&#x9A8C;&#x8BC1;" class="plugin-anchor" href="#&#x521B;&#x5EFA;ssh&#x9A8C;&#x8BC1;"><span class="fa fa-link"></span></a>&#x521B;&#x5EFA;SSH&#x9A8C;&#x8BC1;</h3>
+<h3 id="ssh&#x9A8C;&#x8BC1;"><a name="ssh&#x9A8C;&#x8BC1;" class="plugin-anchor" href="#ssh&#x9A8C;&#x8BC1;"><span class="fa fa-link"></span></a>SSH&#x9A8C;&#x8BC1;</h3>
 <p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x521B;&#x5EFA;SSH-key&#xFF1A; &#x6253;&#x5F00;Git Bash  &#x8F93;&#x5165;&#xFF1A;</p>
 <pre><code>$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;
 </code></pre><p>&#x5728;&#x7528;&#x6237;&#x4E3B;&#x76EE;&#x5F55;&#x91CC;&#x5C06;&#x4F1A;&#x751F;&#x6210;.ssh&#x76EE;&#x5F55;&#xFF0C;&#x91CC;&#x9762;&#x6709;id_rsa&#x548C;id_rsa.pub&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x5C31;&#x662F;SSH Key&#x7684;&#x79D8;&#x94A5;&#x5BF9;&#xFF0C;id_rsa&#x662F;&#x79C1;&#x94A5;&#xFF0C;&#x4E0D;&#x80FD;&#x6CC4;&#x9732;&#x51FA;&#x53BB;&#xFF0C;id_rsa.pub&#x662F;&#x516C;&#x94A5;&#xFF0C;&#x53EF;&#x4EE5;&#x653E;&#x5FC3;&#x5730;&#x544A;&#x8BC9;&#x4EFB;&#x4F55;&#x4EBA;&#x3002;</p>
 <p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x767B;&#x5F55;Github =&gt; [Add SSH Key] =&gt; &#x7C98;&#x8D34;id_rsa.pub&#x91CC;&#x5185;&#x5BB9;</p>
-<h3 id="&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;"><a name="&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;" class="plugin-anchor" href="#&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;"><span class="fa fa-link"></span></a>&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;</h3>
-<pre><code>git remote add xxxx git@github.com:yyy/zzz.git //&#x5173;&#x8FDE;&#x8FDC;&#x7A0B;&#x5E93;
-git remote rm xxx // &#x79FB;&#x9664;&#x5173;&#x8054;
-</code></pre><h4 id="&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;"><a name="&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;" class="plugin-anchor" href="#&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;"><span class="fa fa-link"></span></a>&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;</h4>
-<pre><code>git push -u XXX yyy //&#x5411;&#x8FDC;&#x7A0B;&#x5E93;XXX&#x63A8;&#x9001;&#x672C;&#x5730;yyy&#x5206;&#x652F;
-
--u&#x8868;&#x793A;&#x628A;&#x672C;&#x5730;&#x548C;&#x8FDC;&#x7A0B;&#x7684;&#x5206;&#x652F;&#x5173;&#x8054;&#x8D77;&#x6765;&#xFF0C;&#x4E4B;&#x540E;&#x63A8;&#x9001;&#x5C31;&#x53EF;&#x4EE5;&#x7701;&#x6389;-u&#x53C2;&#x6570;
-</code></pre><h4 id="&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x5E93;"><a name="&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x5E93;" class="plugin-anchor" href="#&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x5E93;"><span class="fa fa-link"></span></a>&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x5E93;</h4>
-<pre><code>git clone git@github.com:yyy/zzz.git
-</code></pre><h3 id="ssh&#x8B66;&#x544A;"><a name="ssh&#x8B66;&#x544A;" class="plugin-anchor" href="#ssh&#x8B66;&#x544A;"><span class="fa fa-link"></span></a>SSH&#x8B66;&#x544A;</h3>
+<h3 id="ssh&#x8B66;&#x544A;"><a name="ssh&#x8B66;&#x544A;" class="plugin-anchor" href="#ssh&#x8B66;&#x544A;"><span class="fa fa-link"></span></a>SSH&#x8B66;&#x544A;</h3>
 <p>&#x5F53;&#x4F60;&#x7B2C;&#x4E00;&#x6B21;&#x4F7F;&#x7528;Git&#x7684;clone&#x6216;&#x8005;push&#x547D;&#x4EE4;&#x8FDE;&#x63A5;GitHub&#x65F6;&#xFF0C;&#x4F1A;&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x8B66;&#x544A;&#xFF1A;</p>
 <pre><code>The authenticity of host &apos;github.com (xx.xx.xx.xx)&apos; can&apos;t be established.
 RSA key fingerprint is xx.xx.xx.xx.xx.
@@ -807,16 +815,48 @@ Are you sure you want to continue connecting (yes/no)?
 </code></pre><p>&#x8FD9;&#x4E2A;&#x8B66;&#x544A;&#x53EA;&#x4F1A;&#x51FA;&#x73B0;&#x4E00;&#x6B21;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x64CD;&#x4F5C;&#x5C31;&#x4E0D;&#x4F1A;&#x6709;&#x4EFB;&#x4F55;&#x8B66;&#x544A;&#x4E86;&#x3002;</p>
 <h2 id="&#x6740;&#x624B;&#x950F;&#x2014;&#x5206;&#x652F;&#x7BA1;&#x7406;"><a name="&#x6740;&#x624B;&#x950F;&#x2014;&#x5206;&#x652F;&#x7BA1;&#x7406;" class="plugin-anchor" href="#&#x6740;&#x624B;&#x950F;&#x2014;&#x5206;&#x652F;&#x7BA1;&#x7406;"><span class="fa fa-link"></span></a>&#x6740;&#x624B;&#x950F;&#x2014;&#x5206;&#x652F;&#x7BA1;&#x7406;</h2>
 <h3 id="&#x5206;&#x652F;&#x7BA1;&#x7406;&#x5E38;&#x7528;&#x547D;&#x4EE4;"><a name="&#x5206;&#x652F;&#x7BA1;&#x7406;&#x5E38;&#x7528;&#x547D;&#x4EE4;" class="plugin-anchor" href="#&#x5206;&#x652F;&#x7BA1;&#x7406;&#x5E38;&#x7528;&#x547D;&#x4EE4;"><span class="fa fa-link"></span></a>&#x5206;&#x652F;&#x7BA1;&#x7406;&#x5E38;&#x7528;&#x547D;&#x4EE4;</h3>
-<p>&#x67E5;&#x770B;&#x5206;&#x652F;&#xFF1A;git branch</p>
-<p>&#x521B;&#x5EFA;&#x5206;&#x652F;&#xFF1A;git branch <name></name></p>
-<p>&#x5207;&#x6362;&#x5206;&#x652F;&#xFF1A;git checkout <name></name></p>
-<p>&#x521B;&#x5EFA;+&#x5207;&#x6362;&#x5206;&#x652F;&#xFF1A;git checkout -b <name></name></p>
-<p>&#x5408;&#x5E76;&#x67D0;&#x5206;&#x652F;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;&#xFF1A;git merge <name></name></p>
-<p>&#x5220;&#x9664;&#x5206;&#x652F;&#xFF1A;git branch -d <name></name></p>
-<p>&#x5F3A;&#x884C;&#x5220;&#x9664;&#x6CA1;&#x88AB;&#x5408;&#x5E76;&#x7684;&#x5206;&#x652F;&#xFF1A; git branch -D <name> </name></p>
-<p>git log --graph --pretty=oneline &#x4EE5;&#x56FE;&#x5F62;&#x663E;&#x793A;&#xFF0C;&#x770B;&#x5230;&#x5206;&#x652F;&#x7684;&#x5408;&#x5E76;&#x60C5;&#x51B5;</p>
-<p>git merge --no-ff -m &quot;&quot; dev 
- --no-ff &#x53C2;&#x6570; &#x5F3A;&#x5236;&#x7981;&#x7528;Fast forward&#x6A21;&#x5F0F;&#xFF0C;merge&#x65F6;&#x4F1A;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x65B0;&#x7684;commit</p>
+<table>
+<thead>
+<tr>
+<th>&#x547D;&#x4EE4;</th>
+<th>&#x529F;&#x80FD;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git branch</td>
+<td>&#x67E5;&#x770B;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git branch &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x521B;&#x5EFA;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git checkout &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x5207;&#x6362;&#x5230;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git checkout -b &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x521B;&#x5EFA;+&#x5207;&#x6362;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git merge &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x5408;&#x5E76;&#x5206;&#x652F;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git branch -d &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x5220;&#x9664;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git branch -D &lt;&#x5206;&#x652F;&gt;</td>
+<td>&#x5F3A;&#x884C;&#x5220;&#x9664;&#x6CA1;&#x88AB;&#x5408;&#x5E76;&#x7684;&#x5206;&#x652F;</td>
+</tr>
+<tr>
+<td>git merge --no-ff -m &quot;&quot; dev</td>
+<td>merge&#x65F6;&#x4F1A;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x65B0;&#x7684;commit</td>
+</tr>
+</tbody>
+</table>
 <h2 id="&#x5206;&#x652F;&#x7B56;&#x7565;"><a name="&#x5206;&#x652F;&#x7B56;&#x7565;" class="plugin-anchor" href="#&#x5206;&#x652F;&#x7B56;&#x7565;"><span class="fa fa-link"></span></a>&#x5206;&#x652F;&#x7B56;&#x7565;</h2>
 <ol>
 <li>master&#x5206;&#x652F;&#x5E94;&#x8BE5;&#x662F;&#x975E;&#x5E38;&#x7A33;&#x5B9A;&#x7684;&#xFF0C;&#x4EC5;&#x7528;&#x6765;&#x53D1;&#x5E03;&#x65B0;&#x7248;&#x672C;&#x3002;</li>
@@ -871,21 +911,8 @@ git merge --no-ff -m &quot;merged bug fix 101&quot; issue-101
 <p>git config --global alias.<n> <name> </name></n></p>
 <h2 id="git&#x670D;&#x52A1;&#x5668;&#x642D;&#x5EFA;"><a name="git&#x670D;&#x52A1;&#x5668;&#x642D;&#x5EFA;" class="plugin-anchor" href="#git&#x670D;&#x52A1;&#x5668;&#x642D;&#x5EFA;"><span class="fa fa-link"></span></a>Git&#x670D;&#x52A1;&#x5668;&#x642D;&#x5EFA;</h2>
 <p>untracted &#x65E0;&#x8E2A;&#x8FF9;&#x7684; </p>
-<h2 id="&#x5DE5;&#x4F5C;&#x533A;&#x56DE;&#x9000;"><a name="&#x5DE5;&#x4F5C;&#x533A;&#x56DE;&#x9000;" class="plugin-anchor" href="#&#x5DE5;&#x4F5C;&#x533A;&#x56DE;&#x9000;"><span class="fa fa-link"></span></a>&#x5DE5;&#x4F5C;&#x533A;&#x56DE;&#x9000;</h2>
-<blockquote>
-<p>git checkout &#x2014; xxx   &#x64A4;&#x9500;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x6682;&#x5B58;&#x533A;or&#x7248;&#x672C;&#x5E93;&#x66FF;&#x6362;<br>git reset HEAD xxxx  &#x4E22;&#x5F03;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539; </p>
-</blockquote>
-<h4 id="1-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;"><a name="1-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;" class="plugin-anchor" href="#1-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;"><span class="fa fa-link"></span></a><strong>1. &#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x6CA1;&#x6709;&#x5165;&#x5E93;</strong></h4>
-<pre><code>git reset HEAD xxxx //&#x4E22;&#x5F03;&#x6682;&#x5B58;&#x533A;&#x7684;&#x4FEE;&#x6539;
-git checkout &#x2014; xxx // &#x64A4;&#x9500;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x62FF;&#x7248;&#x672C;&#x5E93;&#x66FF;&#x6362;&#x5DE5;&#x4F5C;&#x533A;
-</code></pre><h4 id="2-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;"><a name="2-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;" class="plugin-anchor" href="#2-&#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;"><span class="fa fa-link"></span></a><strong>2. &#x5DF2;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4E14;&#x5DF2;&#x5165;&#x5E93;</strong></h4>
-<pre><code>git reset &#x2013;hard HEAD^ //&#x76F4;&#x63A5;&#x4F7F;&#x7248;&#x672C;&#x56DE;&#x9000;&#x4E0A;&#x4E00;&#x7248;&#x672C;
-</code></pre><h4 id="3-&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF1A;"><a name="3-&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF1A;" class="plugin-anchor" href="#3-&#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF1A;"><span class="fa fa-link"></span></a>3. &#x628A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF1A;</h4>
-<pre><code>git add xxx  // &#x9519;&#x8BEF;
-git rm xxx  // &#x6B63;&#x786E;
-</code></pre><p>&#x6682;&#x5B58;&#x533A; &#x56DE;&#x9000;&#xFF1A;git reset HEAD xxxx
-&#x7248;&#x672C;&#x5E93; &#x56DE;&#x9000;&#xFF1A;git reset --hard HEAD^</p>
 <h2 id=""><a name="" class="plugin-anchor" href="#"><span class="fa fa-link"></span></a>-----------------------------------------</h2>
+<h2 id="git-log-&#x547D;&#x4EE4;"><a name="git-log-&#x547D;&#x4EE4;" class="plugin-anchor" href="#git-log-&#x547D;&#x4EE4;"><span class="fa fa-link"></span></a>git log &#x547D;&#x4EE4;</h2>
 <pre><code>git log &#x547D;&#x4EE4;
 </code></pre><p>[-p] &#x663E;&#x793A;patch</p>
 <p>[--color] &#x5F69;&#x8272;&#x6A21;&#x5F0F;</p>
@@ -935,8 +962,8 @@ git push mybook -u ph-pages //&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#
 <script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; QIANSR all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2015-11-30 17:17:14
-</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#git教程'>Git教程</a></li><ul><li><a href='#git简介和安装'>Git简介和安装</a></li><li><a href='#git基础操作命令'>Git基础操作命令</a></li><li><a href='#git工作区和暂存区概念'>Git工作区和暂存区概念</a></li><li><a href='#git的常见操作'>Git的常见操作</a></li><ul><li><a href='#1-修改文件'>1. 修改文件</a></li><li><a href='#2-删除文件'>2. 删除文件</a></li><li><a href='#3-其他操作'>3. 其他操作</a></li></ul><li><a href='#git远程操作详解'>Git远程操作详解</a></li><ul><li><a href='#创建ssh验证'>创建SSH验证</a></li><li><a href='#关联远程库'>关联远程库</a></li><li><a href='#ssh警告'>SSH警告</a></li></ul><li><a href='#杀手锏—分支管理'>杀手锏—分支管理</a></li><ul><li><a href='#分支管理常用命令'>分支管理常用命令</a></li></ul><li><a href='#分支策略'>分支策略</a></li><ul><li><a href='#bug分支'>Bug分支</a></li><li><a href='#多人协作的工作模式：'>多人协作的工作模式：</a></li></ul><li><a href='#标签管理'>标签管理</a></li><li><a href='#配置git'>配置git</a></li><ul><li><a href='#忽略特定文件'>忽略特定文件</a></li><li><a href='#配置命令'>配置命令</a></li></ul><li><a href='#git服务器搭建'>Git服务器搭建</a></li><li><a href='#工作区回退'>工作区回退</a></li><li><a href='#github-创建项目主页page'>github 创建项目主页page</a></li></ul></ul></div><a href='#git教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
+2015-11-30 18:55:21
+</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#git教程'>Git教程</a></li><ul><li><a href='#git简介和安装'>Git简介和安装</a></li><li><a href='#git基础操作命令'>Git基础操作命令</a></li><li><a href='#git工作区和暂存区概念'>Git工作区和暂存区概念</a></li><li><a href='#git的常见操作'>Git的常见操作</a></li><ul><li><a href='#1-修改回退'>1. 修改回退</a></li><li><a href='#2-删除文件'>2. 删除文件</a></li><li><a href='#3-其他操作'>3. 其他操作</a></li></ul><li><a href='#git远程操作详解'>Git远程操作详解</a></li><ul><li><a href='#ssh验证'>SSH验证</a></li><li><a href='#ssh警告'>SSH警告</a></li></ul><li><a href='#杀手锏—分支管理'>杀手锏—分支管理</a></li><ul><li><a href='#分支管理常用命令'>分支管理常用命令</a></li></ul><li><a href='#分支策略'>分支策略</a></li><ul><li><a href='#bug分支'>Bug分支</a></li><li><a href='#多人协作的工作模式：'>多人协作的工作模式：</a></li></ul><li><a href='#标签管理'>标签管理</a></li><li><a href='#配置git'>配置git</a></li><ul><li><a href='#忽略特定文件'>忽略特定文件</a></li><li><a href='#配置命令'>配置命令</a></li></ul><li><a href='#git服务器搭建'>Git服务器搭建</a></li><li><a href='#git-log-命令'>git log 命令</a></li><li><a href='#github-创建项目主页page'>github 创建项目主页page</a></li></ul></ul></div><a href='#git教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
                 

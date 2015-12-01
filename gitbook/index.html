@@ -80,7 +80,7 @@
     <body>
         
         
-    <div class="book" data-level="11" data-chapter-title="gitbook教程" data-filepath="gitbook/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 17:17:56 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="11" data-chapter-title="gitbook教程" data-filepath="gitbook/README.md" data-basepath=".." data-revision="Mon Nov 30 2015 19:28:01 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -489,6 +489,21 @@
             
         </li>
     
+        <li class="chapter " data-level="13" data-path="Emmet/index.html">
+            
+                
+                    <a href="../Emmet/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Emmet教程
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -523,11 +538,348 @@
                     <section class="normal" id="section-">
                     
                         <h1 id="gitbook&#x6559;&#x7A0B;"><a name="gitbook&#x6559;&#x7A0B;" class="plugin-anchor" href="#gitbook&#x6559;&#x7A0B;"><span class="fa fa-link"></span></a>gitbook&#x6559;&#x7A0B;</h1>
-<script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
+<h2 id="&#x94FE;&#x63A5;"><a name="&#x94FE;&#x63A5;" class="plugin-anchor" href="#&#x94FE;&#x63A5;"><span class="fa fa-link"></span></a>&#x94FE;&#x63A5;</h2>
+<p><strong>&#x6587;&#x5B57;&#x94FE;&#x63A5;&#x8BED;&#x6CD5;</strong></p>
+<pre><code>[&#x9019;&#x662F;&#x9023;&#x7D50;](http://cowmanchiang.me/gitbook)
+</code></pre><p><a href="http://cowmanchiang.me/gitbook" target="_blank">&#x9019;&#x662F;&#x9023;&#x7D50;</a></p>
+<p><strong>&#x6CE8;&#x89E3;&#x65B9;&#x5F0F;&#x8BED;&#x6CD5;</strong></p>
+<pre><code>[&#x9019;&#x662F;&#x9023;&#x7D50;][1]
+[1]: http://cowmanchiang.me/gitbook
+</code></pre><p><a href="http://cowmanchiang.me/gitbook" target="_blank">&#x9019;&#x662F;&#x9023;&#x7D50;</a></p>
+<h2 id="gitbook-&#x4E66;&#x7C4D;&#x7F16;&#x6392;"><a name="gitbook-&#x4E66;&#x7C4D;&#x7F16;&#x6392;" class="plugin-anchor" href="#gitbook-&#x4E66;&#x7C4D;&#x7F16;&#x6392;"><span class="fa fa-link"></span></a>gitbook &#x4E66;&#x7C4D;&#x7F16;&#x6392;</h2>
+<pre><code>npm install gitbook -g    &#x9519;&#x8BEF;
+npm install -g gitbook-cli &#x6B63;&#x786E;
+
+gitbook init // &#x521D;&#x59CB;&#x5316;&#x4E66;&#x7C4D;&#x76EE;&#x5F55;
+gitbook serve // &#x7F16;&#x8BD1;&#x4E66;&#x7C4D;
+
+gitbook install ./ //&#x5B89;&#x88C5;book.json&#x6587;&#x4EF6;&#x91CC;&#x6307;&#x5B9A;&#x63D2;&#x4EF6;
+
+gitbook build //&#x5C06;&#x4E66;&#x7C4D;&#x5185;&#x5BB9;&#x8F93;&#x51FA;&#x5230;&#x9ED8;&#x8BA4;_book&#x76EE;&#x5F55;
+</code></pre><h3 id="&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><a name="&#x76EE;&#x5F55;&#x7ED3;&#x6784;" class="plugin-anchor" href="#&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><span class="fa fa-link"></span></a>&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h3>
+<p>SUMMARY.md</p>
+<pre><code>* [&#x524D;&#x8A00;](introduct/README1.md)
+  - [API&#x7D22;&#x5F15;](introduct/index.md)
+  - [&#x7B80;&#x4ECB;](introduct/about.md)
+* [&#x4F60;&#x597D; Regular](getting-start/README.md)
+  - [&#x5B89;&#x88C5;](getting-start/install.md)
+  - [&#x5FEB;&#x901F;&#x8D77;&#x6B65;](getting-start/quirk-example.md)
+  - [&#x5C0F;&#x7ED3;](getting-start/review.md)
+</code></pre><h3 id="&#x591A;&#x8BED;&#x8A00;&#x7248;&#x672C;"><a name="&#x591A;&#x8BED;&#x8A00;&#x7248;&#x672C;" class="plugin-anchor" href="#&#x591A;&#x8BED;&#x8A00;&#x7248;&#x672C;"><span class="fa fa-link"></span></a>&#x591A;&#x8BED;&#x8A00;&#x7248;&#x672C;</h3>
+<p>LANGS.md &#x653E;&#x7F6E;&#x5728;&#x6839;&#x76EE;&#x5F55;</p>
+<pre><code>[English](en/)
+[French](fr/)
+[Espa&#xF1;ol](es/)
+</code></pre><h3 id="reamemd"><a name="reamemd" class="plugin-anchor" href="#reamemd"><span class="fa fa-link"></span></a>REAME.md</h3>
+<p>REAME&#x76F8;&#x5F53;&#x4E8E;&#x4E66;&#x7C4D;&#x7684;&#x524D;&#x8A00;&#x90E8;&#x5206;&#x3002;</p>
+<h3 id="&#x5C01;&#x9762;"><a name="&#x5C01;&#x9762;" class="plugin-anchor" href="#&#x5C01;&#x9762;"><span class="fa fa-link"></span></a>&#x5C01;&#x9762;</h3>
+<p>&#x5C01;&#x9762;&#x6587;&#x4EF6;   /cover.jpg  &#x5C3A;&#x5BF8;&#x4E3A; 1800x2360. 
+&#x5C01;&#x9762;&#x7684;&#x5C0F;&#x5C3A;&#x5BF8;&#x56FE;  /cover_small.png</p>
+<h3 id="&#x8BCD;&#x6C47;&#x8868;"><a name="&#x8BCD;&#x6C47;&#x8868;" class="plugin-anchor" href="#&#x8BCD;&#x6C47;&#x8868;"><span class="fa fa-link"></span></a>&#x8BCD;&#x6C47;&#x8868;</h3>
+<p>&#x5141;&#x8BB8;&#x4F60;&#x5217;&#x51FA;&#x6761;&#x76EE;&#x4EE5;&#x53CA;&#x5B83;&#x4EEC;&#x7684;&#x5B9A;&#x4E49;. &#x57FA;&#x4E8E;&#x8FD9;&#x4E9B;&#x6761;&#x76EE; gitbook&#x4F1A;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7D22;&#x5F15;&#xFF0C;&#x5E76;&#x5728;&#x9875;&#x9762;&#x4E2D;&#x52A0;&#x4EAE;&#x8FD9;&#x4E9B;&#x6761;&#x76EE;.
+GLOSSARY.md &#x683C;&#x5F0F;&#x5F88;&#x7B80;&#x5355; :</p>
+<pre><code># term
+Definition for this term
+# Another term
+With it&apos;s definition, this can contain bold text and all other kinds of inline markup ...
+</code></pre><h3 id="&#x5FFD;&#x7565;&#x6587;&#x4EF6;&#x4E0E;&#x6587;&#x4EF6;&#x5939;"><a name="&#x5FFD;&#x7565;&#x6587;&#x4EF6;&#x4E0E;&#x6587;&#x4EF6;&#x5939;" class="plugin-anchor" href="#&#x5FFD;&#x7565;&#x6587;&#x4EF6;&#x4E0E;&#x6587;&#x4EF6;&#x5939;"><span class="fa fa-link"></span></a>&#x5FFD;&#x7565;&#x6587;&#x4EF6;&#x4E0E;&#x6587;&#x4EF6;&#x5939;</h3>
+<p>.gitignore,
+.bookignore 
+ .ignore 
+ &#x5F97;&#x5230;&#x9700;&#x8981;&#x5FFD;&#x7565;&#x7684;&#x6587;&#x4EF6;/&#x6587;&#x4EF6;&#x5939;&#x7684;&#x5217;&#x8868;. (&#x6587;&#x4EF6;&#x7684;&#x683C;&#x5F0F;&#x548C; .gitignore&#x4E00;&#x6837;).</p>
+<p>.gitignore&#x6700;&#x4F73;&#x5B9E;&#x8DF5;&#x662F;&#x5FFD;&#x7565;build&#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x6765;&#x81EA; node.js (node_modules, ...) &#x548C;GitBook&#x7684;build&#x6587;&#x4EF6;: _book, <em>.epub, </em>.mobi and *.pdf.</p>
+<h3 id="bookjson-&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><a name="bookjson-&#x914D;&#x7F6E;&#x6587;&#x4EF6;" class="plugin-anchor" href="#bookjson-&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><span class="fa fa-link"></span></a>book.json &#x914D;&#x7F6E;&#x6587;&#x4EF6;</h3>
+<pre><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// &#x8F93;&#x51FA;&#x6587;&#x4EF6;&#x5939;</span>
+    <span class="token comment" spellcheck="true">// &#x6CE8;&#x610F;: &#x5B83;&#x4F1A;&#x8986;&#x76D6;&#x547D;&#x4EE4;&#x884C;&#x4F20;&#x5165;&#x7684;&#x53C2;&#x6570;</span>
+    <span class="token comment" spellcheck="true">// &#x4E0D;&#x5EFA;&#x8BAE;&#x5728;&#x6B64;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;</span>
+    <span class="token string">&quot;output&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x4EA7;&#x751F;&#x7684;&#x4E66;&#x7C4D;&#x7684;&#x7C7B;&#x578B;</span>
+    <span class="token comment" spellcheck="true">// &#x6CE8;&#x610F;: &#x5B83;&#x4F1A;&#x8986;&#x76D6;&#x547D;&#x4EE4;&#x884C;&#x4F20;&#x5165;&#x7684;&#x53C2;&#x6570;</span>
+    <span class="token comment" spellcheck="true">// &#x4E0D;&#x5EFA;&#x8BAE;&#x5728;&#x6B64;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;</span>
+    <span class="token string">&quot;generator&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;site&quot;</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x56FE;&#x4E66;&#x6807;&#x9898;&#x548C;&#x63CF;&#x8FF0; (&#x9ED8;&#x8BA4;&#x4ECE;README&#x62BD;&#x53D6;)</span>
+    <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;description&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x5BF9;&#x4E8E;ebook&#x683C;&#x5F0F;, &#x6269;&#x5C55;&#x540D;the extension to use for generation (default is detected from output extension)</span>
+    <span class="token comment" spellcheck="true">// &quot;epub&quot;, &quot;pdf&quot;, &quot;mobi&quot;</span>
+    <span class="token comment" spellcheck="true">// &#x6CE8;&#x610F;: &#x5B83;&#x4F1A;&#x8986;&#x76D6;&#x547D;&#x4EE4;&#x884C;&#x4F20;&#x5165;&#x7684;&#x53C2;&#x6570;</span>
+    <span class="token comment" spellcheck="true">// &#x4E0D;&#x5EFA;&#x8BAE;&#x5728;&#x6B64;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;</span>
+    <span class="token string">&quot;extension&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// GitHub &#x4FE1;&#x606F;(defaults are extracted using git)</span>
+    <span class="token string">&quot;github&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;githubHost&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;https://github.com/&quot;</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x63D2;&#x4EF6;&#x5217;&#x8868;, can contain &quot;-name&quot; for removing default plugins</span>
+    <span class="token string">&quot;plugins&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x63D2;&#x4EF6;&#x901A;&#x7528;&#x914D;&#x7F6E;</span>
+    <span class="token string">&quot;pluginsConfig&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;fontSettings&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;theme&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;sepia&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;night&quot;</span> or <span class="token string">&quot;white&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;family&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;serif&quot;</span> or <span class="token string">&quot;sans&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;size&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span> to <span class="token number">4</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// &#x6A21;&#x7248;&#x4E2D;&#x7684;&#x94FE;&#x63A5; (null: default, false: remove, string: new value)</span>
+    <span class="token string">&quot;links&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// Custom links at top of sidebar</span>
+        <span class="token string">&quot;sidebar&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Custom link name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;https://customlink.com&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// Sharing links</span>
+        <span class="token string">&quot;sharing&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;google&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;facebook&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;twitter&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;weibo&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;all&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">// PDF &#x53C2;&#x6570;</span>
+    <span class="token string">&quot;pdf&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// Add toc at the end of the file</span>
+        <span class="token string">&quot;toc&quot;</span><span class="token punctuation">:</span> <span class="token keyword">true</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// Add page numbers to the bottom of every page</span>
+        <span class="token string">&quot;pageNumbers&quot;</span><span class="token punctuation">:</span> <span class="token keyword">false</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// Font size for the fiel content</span>
+        <span class="token string">&quot;fontSize&quot;</span><span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// Paper size for the pdf</span>
+        <span class="token comment" spellcheck="true">// Choices are [u&#x2019;a0&#x2019;, u&#x2019;a1&#x2019;, u&#x2019;a2&#x2019;, u&#x2019;a3&#x2019;, u&#x2019;a4&#x2019;, u&#x2019;a5&#x2019;, u&#x2019;a6&#x2019;, u&#x2019;b0&#x2019;, u&#x2019;b1&#x2019;, u&#x2019;b2&#x2019;, u&#x2019;b3&#x2019;, u&#x2019;b4&#x2019;, u&#x2019;b5&#x2019;, u&#x2019;b6&#x2019;, u&#x2019;legal&#x2019;, u&#x2019;letter&#x2019;]</span>
+        <span class="token string">&quot;paperSize&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;a4&quot;</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// Margin (in pts)</span>
+        <span class="token comment" spellcheck="true">// Note: 72 pts equals 1 inch</span>
+        <span class="token string">&quot;margin&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;right&quot;</span><span class="token punctuation">:</span> <span class="token number">62</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;left&quot;</span><span class="token punctuation">:</span> <span class="token number">62</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;top&quot;</span><span class="token punctuation">:</span> <span class="token number">36</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;bottom&quot;</span><span class="token punctuation">:</span> <span class="token number">36</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="ebookconvert--&#x7535;&#x5B50;&#x4E66;&#x683C;&#x5F0F;&#x8F6C;&#x6362;"><a name="ebookconvert--&#x7535;&#x5B50;&#x4E66;&#x683C;&#x5F0F;&#x8F6C;&#x6362;" class="plugin-anchor" href="#ebookconvert--&#x7535;&#x5B50;&#x4E66;&#x683C;&#x5F0F;&#x8F6C;&#x6362;"><span class="fa fa-link"></span></a>ebook-convert  &#x7535;&#x5B50;&#x4E66;&#x683C;&#x5F0F;&#x8F6C;&#x6362;</h2>
+<pre><code>npm install ebook-convert
+</code></pre><h2 id="&#x4F7F;&#x7528;&#x63D2;&#x4EF6;"><a name="&#x4F7F;&#x7528;&#x63D2;&#x4EF6;" class="plugin-anchor" href="#&#x4F7F;&#x7528;&#x63D2;&#x4EF6;"><span class="fa fa-link"></span></a>&#x4F7F;&#x7528;&#x63D2;&#x4EF6;</h2>
+<p>Gitbook &#x672C;&#x8EAB;&#x529F;&#x80FD;&#x4E30;&#x5BCC;&#xFF0C;&#x4F46;&#x540C;&#x65F6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x63D2;&#x4EF6;&#x6765;&#x8FDB;&#x884C;&#x4E2A;&#x6027;&#x5316;&#x5B9A;&#x5236;&#x3002;Gitbook &#x63D2;&#x4EF6; &#x91CC;&#x5DF2;&#x7ECF;&#x6709;100&#x591A;&#x4E2A;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x5728; book.json &#x6587;&#x4EF6;&#x7684; plugins &#x548C; pluginsConfig &#x5B57;&#x6BB5;&#x6DFB;&#x52A0;&#x63D2;&#x4EF6;&#x53CA;&#x76F8;&#x5173;&#x914D;&#x7F6E;&#xFF0C;&#x6DFB;&#x52A0;&#x540E;&#x522B;&#x5FD8;&#x4E86;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
+<pre><code class="lang-json"><span class="token comment" spellcheck="true">// book.json</span>
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Webpack &#x4E2D;&#x6587;&#x6307;&#x5357;&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;description&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Webpack &#x662F;&#x5F53;&#x4E0B;&#x6700;&#x70ED;&#x95E8;&#x7684;&#x524D;&#x7AEF;&#x8D44;&#x6E90;&#x6A21;&#x5757;&#x5316;&#x7BA1;&#x7406;&#x548C;&#x6253;&#x5305;&#x5DE5;&#x5177;&#xFF0C;&#x672C;&#x4E66;&#x5927;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#x7FFB;&#x8BD1;&#x81EA; Webpack &#x5B98;&#x7F51;&#x3002;&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;language&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;zh&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;plugins&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;disqus&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;github&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;edit-link&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;prism&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;-highlight&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;baidu&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;splitter&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;sitemap&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;pluginsConfig&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;disqus&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;shortName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;webpack-handbook&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;github&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;https://github.com/zhaoda/webpack-handbook&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;edit-link&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;base&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;https://github.com/zhaoda/webpack-handbook/blob/master/content&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;label&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&#x7F16;&#x8F91;&#x672C;&#x9875;&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;baidu&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;token&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;a9787f0ab45d5e237bab522431d0a7ec&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;sitemap&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;hostname&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;http://zhaoda.net/&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="&#x5B89;&#x88C5;&#x63D2;&#x4EF6;"><a name="&#x5B89;&#x88C5;&#x63D2;&#x4EF6;" class="plugin-anchor" href="#&#x5B89;&#x88C5;&#x63D2;&#x4EF6;"><span class="fa fa-link"></span></a>&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</h2>
+<pre><code>$ gitbook install ./
+</code></pre><h3 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;"><a name="&#x5E38;&#x7528;&#x63D2;&#x4EF6;" class="plugin-anchor" href="#&#x5E38;&#x7528;&#x63D2;&#x4EF6;"><span class="fa fa-link"></span></a>&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x63D2;&#x4EF6;</th>
+<th style="text-align:left">&#x7B80;&#x4ECB;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/ad" target="_blank">ad</a></td>
+<td style="text-align:left">&#x5728;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x9876;&#x90E8;&#x548C;&#x5E95;&#x90E8;&#x6DFB;&#x52A0;&#x5E7F;&#x544A;&#x6216;&#x4EFB;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5185;&#x5BB9;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/splitter" target="_blank">splitter</a></td>
+<td style="text-align:left">&#x5728;&#x5DE6;&#x4FA7;&#x76EE;&#x5F55;&#x548C;&#x53F3;&#x4FA7;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x62D6;&#x62FD;&#x7684;&#x680F;&#xFF0C;&#x7528;&#x6765;&#x8C03;&#x6574;&#x4E24;&#x8FB9;&#x7684;&#x5BBD;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/anchors" target="_blank">anchors</a></td>
+<td style="text-align:left">&#x6807;&#x9898;&#x5E26;&#x6709; github &#x6837;&#x5F0F;&#x7684;&#x951A;&#x70B9;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/edit-link" target="_blank">edit-link</a></td>
+<td style="text-align:left">&#x5185;&#x5BB9;&#x9876;&#x90E8;&#x663E;&#x793A; &#x7F16;&#x8F91;&#x672C;&#x9875; &#x94FE;&#x63A5;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/chart" target="_blank">chart</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528; C3.js &#x56FE;&#x8868;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/ga" target="_blank">ga</a></td>
+<td style="text-align:left">&#x6DFB;&#x52A0; Google &#x7EDF;&#x8BA1;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/disqus" target="_blank">disqus</a></td>
+<td style="text-align:left">&#x6DFB;&#x52A0; disqus &#x8BC4;&#x8BBA;&#x63D2;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/sitemap" target="_blank">sitemap</a></td>
+<td style="text-align:left">&#x751F;&#x6210;&#x7AD9;&#x70B9;&#x5730;&#x56FE;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/latex-codecogs" target="_blank">latex-codecogs</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x6570;&#x5B66;&#x65B9;&#x7A0B;&#x5F0F;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/mermaid-2" target="_blank">mermaid-2</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x6D41;&#x7A0B;&#x56FE;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/book-summary-scroll-position-saver" target="_blank">book-summary-scroll-position-saver</a></td>
+<td style="text-align:left">&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5DE6;&#x4FA7;&#x76EE;&#x5F55;&#x533A;&#x57DF;&#x5BFC;&#x822A;&#x6761;&#x7684;&#x4F4D;&#x7F6E;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram" target="_blank">JS Sequence Diagram</a></td>
+<td style="text-align:left">&#x751F;&#x6210;&#x5E8F;&#x5217;&#x56FE;&#x7684;&#x63D2;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/tbfed-pagefooter" target="_blank">tbfed-pagefooter</a></td>
+<td style="text-align:left">&#x81EA;&#x5B9A;&#x4E49;&#x9875;&#x811A;&#xFF0C;&#x663E;&#x793A;&#x7248;&#x6743;&#x548C;&#x6700;&#x540E;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/prism" target="_blank">prism</a></td>
+<td style="text-align:left">&#x57FA;&#x4E8E; Prism &#x7684;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/atoc" target="_blank">atoc</a></td>
+<td style="text-align:left">&#x63D2;&#x5165; TOC &#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/ace" target="_blank">ace</a></td>
+<td style="text-align:left">&#x63D2;&#x5165;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#x7F16;&#x8F91;&#x5668;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/mcqx" target="_blank">mcqx</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x9009;&#x62E9;&#x9898;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/fbqx" target="_blank">fbqx</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x586B;&#x7A7A;&#x9898;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/spoiler" target="_blank">spoiler</a></td>
+<td style="text-align:left">&#x9690;&#x85CF;&#x7B54;&#x6848;&#xFF0C;&#x5F53;&#x9F20;&#x6807;&#x5212;&#x8FC7;&#x65F6;&#x624D;&#x663E;&#x793A;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/GitbookIO/plugin-exercises" target="_blank">exercises</a></td>
+<td style="text-align:left">&#x6DFB;&#x52A0;&#x53EF;&#x4EA4;&#x4E92;&#x7684;&#x4E60;&#x9898;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/GitbookIO/plugin-quizzes" target="_blank">quizzes</a></td>
+<td style="text-align:left">&#x6DFB;&#x52A0;&#x53EF;&#x4EA4;&#x4E92;&#x7684;&#x9009;&#x62E9;&#x9898;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/GitbookIO/plugin-mathjax" target="_blank">mathjax</a></td>
+<td style="text-align:left">&#x6DFB;&#x52A0;&#x6570;&#x5B66;&#x8868;&#x8FBE;&#x5F0F;&#x652F;&#x6301;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/include-codeblock" target="_blank">include-codeblock</a></td>
+<td style="text-align:left">&#x901A;&#x8FC7;&#x5F15;&#x7528;&#x6587;&#x4EF6;&#x63D2;&#x5165;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/anchor-navigation" target="_blank">anchor-navigation</a></td>
+<td style="text-align:left">&#x951A;&#x70B9;&#x5BFC;&#x822A;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/redirect" target="_blank">redirect</a></td>
+<td style="text-align:left">&#x9875;&#x9762;&#x8DF3;&#x8F6C;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/expandable-chapters" target="_blank">expandable-chapters</a></td>
+<td style="text-align:left">&#x6536;&#x8D77;&#x6216;&#x5C55;&#x5F00;&#x7AE0;&#x8282;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x7236;&#x8282;&#x70B9;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/baidu" target="_blank">baidu</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x767E;&#x5EA6;&#x7EDF;&#x8BA1;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/duoshuo" target="_blank">duoshuo</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x591A;&#x8BF4;&#x8BC4;&#x8BBA;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/jsfiddle" target="_blank">jsfiddle</a></td>
+<td style="text-align:left">&#x63D2;&#x5165; JSFiddle &#x7EC4;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/jsbin" target="_blank">jsbin</a></td>
+<td style="text-align:left">JSBin &#x7EC4;&#x4EF6;,&#x5728; GitBook &#x4E2D;&#x5D4C;&#x5165; JS &#x7EC8;&#x7AEF;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/GitbookIO/plugin-autocover" target="_blank">Autocover</a></td>
+<td style="text-align:left">&#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E66;&#x672C;&#x5C01;&#x9762;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/erixtekila/gitbook-plugin-richquotes" target="_blank">Transform annoted quotes to notes</a></td>
+<td style="text-align:left">&#x5BF9; Markdown &#x5F15;&#x7528;&#x8FDB;&#x884C;&#x4E8C;&#x6B21;&#x6E32;&#x67D3;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/mrpotes/gitbook-plugin-bootstrapjs" target="_blank">Bootstrap JavaScript</a></td>
+<td style="text-align:left">&#x4F7F;&#x7528; Bootstrap JavaScript &#x63D2;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/image-captions" target="_blank">image-captions</a></td>
+<td style="text-align:left">&#x6293;&#x53D6;&#x5185;&#x5BB9;&#x4E2D;&#x56FE;&#x7247;&#x7684; alt &#x6216; title &#x5C5E;&#x6027;&#xFF0C;&#x5728;&#x56FE;&#x7247;&#x4E0B;&#x9762;&#x663E;&#x793A;&#x6807;&#x9898;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/github" target="_blank">github</a></td>
+<td style="text-align:left">&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x663E;&#x793A; github &#x4ED3;&#x5E93;&#x7684;&#x56FE;&#x6807;&#x94FE;&#x63A5;</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://plugins.gitbook.com/plugin/styles-sass" target="_blank">styles-sass</a></td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F7F;&#x7528; SASS &#x66FF;&#x6362; CSS|
+|<a href="https://plugins.gitbook.com/plugin/styles-less" target="_blank">styles-less</a>|
+&#x4F7F;&#x7528; LESS &#x66FF;&#x6362; CSS|
+|<a href="https://plugins.gitbook.com/plugin/github-buttons" target="_blank">github-buttons</a>|
+&#x663E;&#x793A; github &#x4ED3;&#x5E93;&#x7684; star &#x548C; fork &#x6309;&#x94AE;|
+|<a href="https://plugins.gitbook.com/plugin/sectionx" target="_blank">sectionx</a>|
+&#x5206;&#x79BB;&#x5404;&#x4E2A;&#x6BB5;&#x843D;&#xFF0C;&#x5E76;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x5C55;&#x5F00;&#x6536;&#x8D77;&#x7684;&#x6309;&#x94AE;|</p>
+<p>mermaid &#x57FA;&#x672C;&#x7528;&#x6CD5;</p>
+<pre><code>&apos;&apos;&apos;mermaid // &apos; &#x6539;&#x4E3A; ` 
+graph TD;
+ A--&gt;B;
+ A--&gt;C;
+ B--&gt;D;
+ C--&gt;D;
+&apos;&apos;&apos;
+</code></pre><p>JS Sequence Diagram &#x57FA;&#x672C;&#x7528;&#x6CD5;&#xFF1A;</p>
+<pre><code>&apos;&apos;&apos;sequence  // &apos; &#x6539;&#x4E3A; `
+Title: &#x6807;&#x9898;
+
+A-&gt;B: &#x76F4;&#x7EBF;
+B--&gt;C: &#x865A;&#x7EBF;
+C-&gt;&gt;D: &#x7BAD;&#x5934;
+D--&gt;&gt;A: &#x865A;&#x7EBF;&#x7BAD;&#x5934;
+&apos;&apos;&apos;
+</code></pre><script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl&&targetUl.getElementsByTagName('a').length>0){targetUl.className='atoc';}</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; QIANSR all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2015-11-28 19:09:08
-</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#gitbook教程'>gitbook教程</a></li></ul></div><a href='#gitbook教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
+2015-11-30 19:27:54
+</span></footer><div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#gitbook教程'>gitbook教程</a></li><ul><li><a href='#链接'>链接</a></li><li><a href='#gitbook-书籍编排'>gitbook 书籍编排</a></li><ul><li><a href='#目录结构'>目录结构</a></li><li><a href='#多语言版本'>多语言版本</a></li><li><a href='#reamemd'>REAME.md</a></li><li><a href='#封面'>封面</a></li><li><a href='#词汇表'>词汇表</a></li><li><a href='#忽略文件与文件夹'>忽略文件与文件夹</a></li><li><a href='#bookjson-配置文件'>book.json 配置文件</a></li></ul><li><a href='#ebookconvert--电子书格式转换'>ebook-convert  电子书格式转换</a></li><li><a href='#使用插件'>使用插件</a></li><li><a href='#安装插件'>安装插件</a></li><ul><li><a href='#常用插件'>常用插件</a></li></ul></ul></ul></div><a href='#gitbook教程' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
                 
